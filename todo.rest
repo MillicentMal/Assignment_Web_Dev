@@ -1,0 +1,49 @@
+### task none existent
+get http://localhost:3000/v1/tasks/624da739ab8bd537260eaeb4
+
+### 
+
+
+
+
+
+
+
+
+### deleting non existent task
+delete http://localhost:3000/v1/tasks/624da4533ddbfc32e127f513
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+post http://localhost:3000/v1/tasks/624e02c2f66540deb526d88f
+Content-Type: application/json
+
+{
+"title" : "New Task", 
+"is_completed" : false
+}
+
